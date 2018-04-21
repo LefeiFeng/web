@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>占卜</title>
+</head>
+<body style="text-align:center;background-repeat:no-repeat; background-size:100% 100%; background-attachment:fixed;" background="timg.jpg">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="information.html">简介</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">开始占卜 <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="base.html">使用方法</a>
+                <a class="nav-item nav-link" href="about.html">关于</a>
+                <a class="nav-item nav-link disabled" href="#">...</a>
+            </div>
+        </div>
+    </nav>
+<div>
+    <div>
+    <h2>请选择左手  的 草数量（共十八次）</h2>
+    </div>
+    <button type="button" class="btn btn-outline-primary btn-lg"><b>1</b></button>
+    <button type="button" class="btn btn-outline-primary btn-lg"><b>2</b></button>
+    <button type="button" class="btn btn-outline-primary btn-lg"><b>3</b></button>
+    <button type="button" class="btn btn-outline-primary btn-lg"><b>4</b></button><br />
+</div>  
+<table width="400" height="200" border="10" align=center>
+    <tr> 
+        <th>
+            当前爻象   
+        </th>
+        <th>
+            本卦卦象
+        </th>
+        <th>
+            之卦卦象
+        </th>
+
+    </tr>
+    <tr>
+        <td>
+            
+        </td>
+        <td>
+
+        </td>
+        <td>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            
+        </td>
+        <td>
+                
+        </td>
+        <td>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+                
+        </td>
+        <td>
+                    
+        </td>
+        <td>
+    
+        </td>
+    </tr>
+</table>
+   <div class="form-group">
+        <label for="变数">变数</label>
+        <input type="text" readonly class="form-control" placeholder="0" style="border:0px;background:rgba(0, 0, 0, 0.1);">
+      </div>
+   <h3>（三变成一爻，十八变成一卦）</h3>
+   <form>
+        <div class="form-group">
+          <label for="主卦辞">主卦（爻）辞：</label>
+          <input type="text" readonly class="form-control" placeholder="待生成" style="border:0px;background:rgba(0, 0, 0, 0.1);">
+        </div>
+        <div class="form-group">
+          <label for="副卦辞">副卦（爻）辞：</label>
+          <input type="text" readonly class="form-control" placeholder="待生成" style="border:0px;background:rgba(0, 0, 0, 0.1);">
+        </div>
+        <button type="reset" class="btn btn-primary">重置</button>
+     </form><br />
+   <small><a href="base.html"><b>进一步了解 > </b></a></small>
+</body>
+</html>
